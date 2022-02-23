@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+  Do not edit directly
+  Generated on Tue, 22 Feb 2022 19:55:47 GMT
+-->
+<resources>
+  <color name="color_gamefication_esforcado">#26317955</color>
+  <color name="color_gamefication_nerd">#62322790</color>
+  <color name="color_gamefication_veterano">#29273728</color>
+  <color name="color_gamefication_ninja">#95193449</color>
+  <color name="color_gamefication_mestre">#07220663</color>
+  <color name="color_gamefication_phd">#36298305</color>
+  <color name="color_gamefication_alien">#17168126</color>
+  <color name="color_gamefication_or_culo">#31240037</color>
+  <color name="color_bg_bg_light">#66332254</color>
+  <color name="color_neutral_neutral_dark">#30215806</color>
+  <color name="color_neutral_neutral_not_named">#90262521</color>
+  <color name="color_neutral_neutral_light">#43289494</color>
+  <color name="color_neutral_neutral_lighter">#11305282</color>
+  <color name="color_neutral_neutral_lightest">#31335544</color>
+  <color name="color_support_support_attention_md">#50316682</color>
+  <color name="color_support_support_attention_light">#27331347</color>
+  <color name="color_support_support_warning_dark">#15299912</color>
+  <color name="color_support_support_success_dark">#75197018</color>
+  <color name="color_support_support_warning_md">#04335383</color>
+  <color name="color_support_support_success_md">#56205638</color>
+  <color name="color_support_support_warning_light">#75334831</color>
+  <color name="color_support_support_success_light">#28266019</color>
+  <color name="color_verified_verified_md">#18187192</color>
+  <color name="color_question_content_question_light">#52278760</color>
+  <color name="color_brand_brand_primary_light">#07335240</color>
+  <color name="color_brand_brand_primary_lighter">#65328771</color>
+  <color name="color_brand_brand_secondary">#56205638</color>
+  <color name="color_brand_brand_secondary_light">#15220740</color>
+  
+</resources>
