@@ -14,7 +14,7 @@ const corsOptions = {
 
 app.use(cors(corsOptions))
 
-app.get('/', async (req, res) => {
+app.get('*', async (req, res) => {
   try {
     const getFigmaColors = await new ColorController().getColors()
     let colorFileData = JSON.stringify(getFigmaColors)
