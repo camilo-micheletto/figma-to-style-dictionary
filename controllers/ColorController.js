@@ -1,4 +1,4 @@
-const ColorClient = require('../models/ColorClient')
+const ColorClient = require('../models/ColorModel')
 const { parseRGB, rgbToHex } = require('../utils/color')
 
 class ColorController {
