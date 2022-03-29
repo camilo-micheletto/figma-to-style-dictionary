@@ -4,7 +4,7 @@ const cors = require('cors')
 const StyleDictionary = require('style-dictionary').extend('config.json');
 const ColorController = require('./controllers/ColorController')
 const app = require('express')()
-const PORT = 8080
+const PORT = process.env.PORT || 8080
 
 const corsOptions = {
   origin: '*',
@@ -14,7 +14,9 @@ const corsOptions = {
 
 app.use(cors(corsOptions))
 
-app.get('*', async (req, res) => {
+app
+.route('/')
+.get(async (req, res) => {
   try {
     const getFigmaColors = await new ColorController().getColors()
     let colorFileData = JSON.stringify(getFigmaColors)
@@ -24,10 +26,6 @@ app.get('*', async (req, res) => {
   } catch (err) {
     throw new Error(err)
   }
-})
-
-app.get('/scss', (req, res) => {
-  res.download(__dirname + '/build/scss/_variables.scss')
 })
 
 app.listen(PORT, () => {
